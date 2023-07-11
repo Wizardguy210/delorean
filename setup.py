@@ -46,3 +46,22 @@ setup(
         'Programming Language :: Python :: 3.10',
     ],
 )
+$ npm i eslint --save-dev
+$ npm install eslint-plugin-delorean --save-dev
+
+{
+    "plugins": [
+        "delorean"
+    ]
+}
+{
+    "rules": {
+        "delorean/yell-on-then": 2,
+        "delorean/yell-on-catch": 2
+    }
+}
+x.then(Aarrghd)
+new Future((bad, good) => x.then(good).catch(bad))
+{ "library": "F" }
+x.catch()
+{ "library": "F" }
