@@ -1,3 +1,6 @@
+pip install delorean
+
+npm run delorean
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
@@ -19,9 +22,9 @@ setup(
     name='Delorean',
     version='.'.join(str(x) for x in __version__),
     description='library for manipulating datetimes with ease and clarity',
-    url='https://github.com/myusuf3/delorean',
-    author='Mahdi Yusuf',
-    author_email="yusuf.mahdi@gmail.com",
+    url='https://github.com/Wizardguy210/delorean',
+    author='Antonio Moore',
+    author_email="breadnothead@gmail.com.com",
     packages=['delorean'],
     license='MIT license',
     install_requires=dependencies,
@@ -43,25 +46,78 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
-        'Programming Language :: Python :: 3.10',
+#         'Programming Language :: Python :: 3.10',
     ],
 )
-$ npm i eslint --save-dev
-$ npm install eslint-plugin-delorean --save-dev
+# $ npm i eslint --save-dev
+# $ npm install eslint-plugin-delorean --save-dev
 
+yarn add --dev eslint eslint-plugin-jest
 {
-    "plugins": [
-        "delorean"
-    ]
+#    "plugins": ["jest"]
+
+#        "delorean"]
+    
+   }
+ {
+#    "rules": {
+#  "env": 
+#    "jest/globals": {true}
+{
+#  "settings": {
+#    "jest": {
+#      "globalAliases": {
+#        "describe": ["context"],
+#        "fdescribe": ["fcontext"],
+#        "xdescribe": ["xcontext"]
+      }
+    }
+  }
 }
-{
-    "rules": {
         "delorean/yell-on-then": 2,
         "delorean/yell-on-catch": 2
     }
 }
-x.then(Aarrghd)
+x.then(Aarrghd the SystemExit)
 new Future((bad, good) => x.then(good).catch(bad))
 { "library": "F" }
-x.catch()
+# x.catch(2)
 { "library": "F" }
+{
+  "extends": ["eslint:recommended"],
+  "overrides": [
+    {
+      "files": ["test/**"],
+      "plugins": ["jest"],
+      "extends": ["plugin:jest/recommended"],
+      "rules": { "jest/prefer-expect-assertions": "off" }
+    }
+  ],
+  "rules": {
+    "indent": ["error", 2]
+  }
+}
+{
+  "settings": {
+    "jest": {
+      "version": 27
+    }
+  }
+}
+module.exports = {
+  settings: {
+    jest: {
+      version: require('jest/package.json').version,
+    },
+  },
+};
+{
+  "extends": ["plugin:jest/recommended"]
+}
+{
+  "extends": ["plugin:jest/style"]
+}
+{
+  "extends": ["plugin:jest/all"]
+}
+consistent-test-it
